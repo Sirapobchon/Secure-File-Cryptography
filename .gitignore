@@ -1,1 +1,27 @@
-.venv
+# 🐍 Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔒 Virtual Environment
+.venv/
+env/
+venv/
+
+# 📦 Package/Build Artifacts
+*.egg-info/
+dist/
+build/
+
+# 📄 OS Files
+.DS_Store
+Thumbs.db
+
+# 🗃 Project-specific
+settings.json
+*.enc          
+
+# 💻 IDE Files
+.vscode/
+.idea/
+*.swp
